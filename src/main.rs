@@ -19,11 +19,11 @@ fn main() {
 	                    .about("CLI tool to decode URL(s) back to readable form.")
 
 	                    .arg(Arg::with_name("urls")
-                        .multiple(true)
-                        .required(true)
+                            .multiple(true)
+                            .required(true)
 	                    .help("URL(s) to decode"))
 
-						.get_matches();
+                            .get_matches();
 
 	let raw_urls = arguments.values_of("urls");
 	for raw_url in raw_urls.unwrap() {
