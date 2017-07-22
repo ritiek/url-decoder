@@ -1,0 +1,17 @@
+[package]
+name = "url-decoder"
+version = "0.1.0"
+authors = ["ritiek <ritiekmalhotra123@gmail.com>"]
+description = "CLI tool to decode URL(s) back to readable form"
+repository = "https://github.com/ritiek/url-decoder"
+readme = "README.md"
+keywords = ["url", "decoder", "CLI", "tool"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[dependencies]
+hyper = "0.10"
+clap = "2.24"
+
+[[bin]]
+name = "urldecode"
