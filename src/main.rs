@@ -16,7 +16,7 @@ fn main() {
 	let arguments = App::new("url-decoder")
 	                    .version("0.1.0")
 	                    .author("Ritiek Malhotra <ritiekmalhotra123@gmail.com>")
-	                    .about("CLI tool to decode URL(s) back to readable form".)
+	                    .about("CLI tool to decode URL(s) back to readable form.")
 
 	                    .arg(Arg::with_name("urls")
                         .multiple(true)
